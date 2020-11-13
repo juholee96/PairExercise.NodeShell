@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "main": "bash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juholee96/PairExercise.NodeShell.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juholee96/PairExercise.NodeShell/issues"
+  },
+  "homepage": "https://github.com/juholee96/PairExercise.NodeShell#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}

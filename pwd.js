@@ -1,14 +1,14 @@
 //const cmd = require("./bash.js");
 
-module.exports = function (cmd) {
-  //console.log("pwd is running");
-  switch (cmd) {
-    case "pwd":
-      process.stdout.write("Current directory is:" + process.cwd());
-      process.stdout.write("\nprompt >");
-
-    //   if (cmd === "pwd") {
-    //     process.stdout.write("Current directory is:" + process.cwd());
-    //   }
-  }
+module.exports = function (cmdName) {
+ //console.log("pwd is running");
+ switch (cmdName) {
+  case "pwd":
+   process.stdout.write(process.cwd());
+   process.stdout.write("\nprompt >");
+   break;
+  //   if (cmd === "pwd") {
+  //     process.stdout.write("Current directory is:" + process.cwd());
+  //   }
+ }
 };
